@@ -1,0 +1,15 @@
+r1_RAWDATA: "14.data/raw/{sample}_1.fastq.gz"
+r2_RAWDATA: "14.data/raw/{sample}_2.fastq.gz"
+
+genome: "12.ref/genome.fa"
+libType: "RF"
+
+gtf: "12.ref/genes.gtf"
+MATRIX_HOME : "22.quantification/genes" #genes/trans
+ids: "gene_id" #gene_id/transcript_id
+
+samples_file: "samples.txt"
+contrasts_file: "contrasts.txt"
+
+TRINITY_HOME: "/pub/software/trinityrnaseq-v2.14.0"
+DE_METHOD: "DESeq2" #DESeq2/edgeR
