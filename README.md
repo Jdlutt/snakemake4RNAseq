@@ -17,4 +17,4 @@ http://git.genek.cn:3333/zhxd2/RunFeatureCounts.git
 trinityrnaseq
 https://github.com/trinityrnaseq/trinityrnaseq
 
-
+All software is packaged into the mamba environment or software directory
