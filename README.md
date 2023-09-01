@@ -11,13 +11,24 @@ https://github.com/DaehwanKimLab/hisat2
 samtools
 https://github.com/samtools/samtools
 
+**The above three software packages have been packaged into the environment**
+
 RunFeatureCounts
 http://git.genek.cn:3333/zhxd2/RunFeatureCounts.git
 
-trinityrnaseq
-https://github.com/trinityrnaseq/trinityrnaseq
+```bash
+git clone http://git.genek.cn:3333/zhxd2/RunFeatureCounts.git
+```
 
-All software is packaged into the mamba environment or software directory
+trinityrnaseq
+https://github.com/trinityrnaseq/trinityrnaseq/releases
+
+```bash
+https://github.com/trinityrnaseq/trinityrnaseq/releases/download/Trinity-v2.15.1/trinityrnaseq-v2.15.1.FULL.tar.gz
+tar -zxvf trinityrnaseq-v2.15.1.FULL.tar.gz
+```
+
+**You need to install the above two software manually**
 
 ## mamba installation and environment configuration
 
