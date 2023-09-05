@@ -173,7 +173,5 @@ rule DE_analysis:
       --output 23.DE_analysis
 
       awk 'FNR==1 && NR!=1{{next}}{{print}}' 23.DE_analysis/*DE_results > {output.de_result}
-
-      snakemake --dag | dot -Tsvg > dag.svg #生成流程图
     """
 
